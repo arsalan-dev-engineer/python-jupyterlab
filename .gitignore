@@ -1,0 +1,31 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment folders
+venv/
+env/
+ENV/
+.venv/
+
+# Ignore Python distribution and package files
+*.egg
+*.egg-info
+dist/
+build/
+
+# Ignore IDE-specific files (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Ignore system-specific files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore .env files (useful for keeping API keys or secrets local)
+.env
